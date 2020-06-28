@@ -12,6 +12,7 @@ function closeOptions(event) {
 }
 
 function windowHandler(event) {
+  //아래의 조건문을 간단하게 구현한 것이 밑의 토글이다.
   /* if (insideBody.classList.contains(closeModal)) {
     // insideBody.classList.remove(closeModal);
     // insideBody.classList.add(showModal);

@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.leftBtn,
+.rightBtn {
+  width: 40px;
+  height: 90px;
+  color: white;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  transition: all 0.5s ease;
+  position: absolute;
+  font-size: 20px;
+  z-index: 9;
+}
+.leftBtn:hover,
+.rightBtn:hover {
+  background-color: black;
+}
+
+.slider {
+  width: 1000px;
+  height: 350px;
+  position: relative;
+}
+.pic {
+  position: absolute;
+  width: 1000px;
+  height: 350px;
+  text-align: center;
+}
+.leftBtn {
+  top: 130px;
+  left: 0px;
+}
+.rightBtn {
+  top: 130px;
+  right: 0px;
+}
+.counter {
+  position: absolute;
+}
+.pic1 {
+  background-image: url("./src/1.jpg");
+  background-size: cover;
+}
+.pic2 {
+  background-image: url("./src/2.jpg");
+  background-size: cover;
+}
+.pic3 {
+  background-image: url("./src/3.jpg");
+  background-size: cover;
+}
+.pic4 {
+  background-image: url("./src/4.jpg");
+  background-size: cover;
+}
+.counter {
+  position: absolute;
+  z-index: 4;
+  color: white;
+}
+.controllers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.roundBtn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  margin: 20px 10px;
+  background-color: grey;
+  transition: all 0.5s ease;
+}
+.roundBtn:hover {
+  background-color: rgb(48, 48, 48);
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}

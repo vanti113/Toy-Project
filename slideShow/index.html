@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>slider</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+      integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="slider">
+      <button class="leftBtn"><i class="fas fa-chevron-left"></i></button>
+      <button class="rightBtn"><i class="fas fa-chevron-right"></i></button>
+      <div class="counter"><span class="counterNum"></span>/4</div>
+
+      <div id="1" class="pic pic1 show">text1</div>
+      <div id="2" class="pic pic2 hide">text2</div>
+      <div id="3" class="pic pic3 hide">text3</div>
+      <div id="4" class="pic pic4 hide">text4</div>
+    </div>
+    <div class="controllers">
+      <button id="round1" class="roundBtn"></button>
+      <button id="round2" class="roundBtn"></button>
+      <button id="round3" class="roundBtn"></button>
+      <button id="round4" class="roundBtn"></button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
